@@ -1,1 +1,16 @@
-GET  http://localhost:5017
+### RAIZ DO PROJETO
+POST  http://localhost:5017
+
+### TESTANDO SEGUNDO TESTE GET
+GET http://localhost:5017/api/produto/listar
+
+### Cadastrar produto
+POST http://localhost:5017/api/produto/cadastrar
+Content-Type: application/json
+
+{
+    "nome": "Celular",
+    "quantidade": 100,
+    "preco": 1000.56
+
+}
